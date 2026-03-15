@@ -1,0 +1,1180 @@
+[R] INFO [rust_launcher::start::bindings] server: None
+[R] INFO [rust_launcher::start] Loading version
+[R] INFO [rust_launcher::start] Finished loading version
+[R] INFO [rust_launcher::start] Finished moving mods
+[R] INFO [rust_launcher::start] Preparing assets
+[R] INFO [rust_launcher::start] Preparing JRE
+[R] INFO [rust_launcher::start] Preparing libraries
+[R] INFO [rust_launcher::start] Preparing mods
+[R] INFO [rust_launcher::start] Finished preparing mods
+[R] INFO [rust_launcher::start] Finished preparing libraries
+[R] INFO [rust_launcher::start] Finished preparing assets
+[R] INFO [rust_launcher::start] Preparing registry
+[R] INFO [rust_launcher::start] Finished preparing registry
+[R] INFO [rust_launcher::common::launch] starting JVM with arguments: ["-Djava.library.path=libraries/native\\net/digitalingot/fcef/0.1.1\\extracted/;libraries/native\\net/digitalingot/fwebp/0.0.2\\extracted/;libraries/native\\net/digitalingot/favif/0.0.1\\extracted/;libraries/native\\com/discord/discord-game-sdk/3.2.1\\extracted/;libraries/native\\net/digitalingot/fdiscord/0.0.1\\extracted/;libraries/native\\net/digitalingot/fjni/0.0.2\\extracted/;libraries/native\\net/digitalingot/cef_binary/103.0.0\\extracted/;libraries/native\\org/jitsi/libjitsi-opus-native/1.1-32-g2a5a8171\\extracted/;libraries/native\\com/mojang/jtracy/1.0.37\\extracted/;libraries/native\\org/lwjgl/lwjgl-freetype/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl-glfw/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl-jemalloc/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl-openal/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl-opengl/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl-stb/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl-tinyfd/3.3.3\\extracted/;libraries/native\\org/lwjgl/lwjgl/3.3.3\\extracted/", "--add-opens=java.desktop/java.awt.event=ALL-UNNAMED", "--add-opens=java.desktop/java.awt.color=ALL-UNNAMED", "--add-opens=java.desktop/java.awt=ALL-UNNAMED", "--add-opens=java.base/java.lang=ALL-UNNAMED", "-Xmx2048M", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseG1GC", "-XX:G1NewSizePercent=20", "-XX:G1ReservePercent=20", "-XX:MaxGCPauseMillis=50", "-XX:G1HeapRegionSize=32M", "-Dlog4j2.formatMsgNoLookups=true", "-XX:ErrorFile=feather/java_error.log", "-Djavax.accessibility.assistive_technologies=", "-Djavax.net.ssl.trustStoreType=WINDOWS-ROOT", "-cp", "libraries\\java\\net/minecraft/client/1.21.11/minecraft-1.21.11.jar;libraries\\java\\at/yawk/lz4/lz4-java/1.8.1/lz4-java-1.8.1.jar;libraries\\java\\com/azure/azure-json/1.4.0/azure-json-1.4.0.jar;libraries\\java\\com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar;libraries\\java\\com/google/code/gson/gson/2.13.2/gson-2.13.2.jar;libraries\\java\\com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar;libraries\\java\\com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar;libraries\\java\\com/ibm/icu/icu4j/77.1/icu4j-77.1.jar;libraries\\java\\com/microsoft/azure/msal4j/1.23.1/msal4j-1.23.1.jar;libraries\\java\\com/mojang/authlib/7.0.61/authlib-7.0.61.jar;libraries\\java\\com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;libraries\\java\\com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar;libraries\\java\\com/mojang/datafixerupper/9.0.19/datafixerupper-9.0.19.jar;libraries\\java\\com/mojang/jtracy/1.0.37/jtracy-1.0.37.jar;libraries\\java\\com/mojang/logging/1.6.11/logging-1.6.11.jar;libraries\\java\\com/mojang/patchy/2.2.10/patchy-2.2.10.jar;libraries\\java\\com/mojang/text2speech/1.18.11/text2speech-1.18.11.jar;libraries\\java\\commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar;libraries\\java\\commons-io/commons-io/2.20.0/commons-io-2.20.0.jar;libraries\\java\\io/netty/netty-buffer/4.2.7.Final/netty-buffer-4.2.7.Final.jar;libraries\\java\\io/netty/netty-codec-base/4.2.7.Final/netty-codec-base-4.2.7.Final.jar;libraries\\java\\io/netty/netty-codec-compression/4.2.7.Final/netty-codec-compression-4.2.7.Final.jar;libraries\\java\\io/netty/netty-codec-http/4.2.7.Final/netty-codec-http-4.2.7.Final.jar;libraries\\java\\io/netty/netty-common/4.2.7.Final/netty-common-4.2.7.Final.jar;libraries\\java\\io/netty/netty-handler/4.2.7.Final/netty-handler-4.2.7.Final.jar;libraries\\java\\io/netty/netty-resolver/4.2.7.Final/netty-resolver-4.2.7.Final.jar;libraries\\java\\io/netty/netty-transport-classes-epoll/4.2.7.Final/netty-transport-classes-epoll-4.2.7.Final.jar;libraries\\java\\io/netty/netty-transport-classes-kqueue/4.2.7.Final/netty-transport-classes-kqueue-4.2.7.Final.jar;libraries\\java\\io/netty/netty-transport-native-unix-common/4.2.7.Final/netty-transport-native-unix-common-4.2.7.Final.jar;libraries\\java\\io/netty/netty-transport/4.2.7.Final/netty-transport-4.2.7.Final.jar;libraries\\java\\it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar;libraries\\java\\net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar;libraries\\java\\net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar;libraries\\java\\net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;libraries\\java\\org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar;libraries\\java\\org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar;libraries\\java\\org/apache/logging/log4j/log4j-api/2.25.2/log4j-api-2.25.2.jar;libraries\\java\\org/apache/logging/log4j/log4j-core/2.25.2/log4j-core-2.25.2.jar;libraries\\java\\org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2/log4j-slf4j2-impl-2.25.2.jar;libraries\\java\\org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar;libraries\\java\\org/joml/joml/1.10.8/joml-1.10.8.jar;libraries\\java\\org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar;libraries\\java\\org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar;libraries\\java\\org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar;libraries\\java\\org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar;libraries\\java\\org/ow2/asm/asm/9.9/asm-9.9.jar;libraries\\java\\org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar;libraries\\java\\org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar;libraries\\java\\org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar;libraries\\java\\org/ow2/asm/asm-util/9.9/asm-util-9.9.jar;libraries\\java\\net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar;libraries/java\\net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar;libraries\\java\\net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar;libraries\\java\\net/digitalingot/rust-extension/1.0.10/rust-extension-1.0.10.jar;libraries\\java\\net/digitalingot/fjni/0.0.2/fjni-0.0.2.jar;libraries\\java\\net/digitalingot/fdiscord/0.0.1/fdiscord-0.0.1.jar;libraries\\java\\net/digitalingot/fcef/0.1.1/fcef-0.1.1.jar;libraries\\java\\net/digitalingot/fwebp/0.0.1/fwebp-0.0.1.jar;libraries\\java\\net/digitalingot/favif/0.0.1/favif-0.0.1.jar;libraries\\java\\net/digitalingot/feather-server-api/messaging/0.0.5/messaging-0.0.5.jar;libraries\\java\\org/jitsi/libjitsi-opus/1.1-32-g2a5a8171/libjitsi-opus-1.1-32-g2a5a8171.jar;libraries\\java\\org/capnproto/runtime/0.1.10/runtime-0.1.10.jar;libraries\\java\\com/google/inject/guice/5.1.1/guice-5.1.1.jar;libraries\\java\\javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar;libraries\\java\\io/sentry/sentry/7.18.1/sentry-7.18.1.jar;libraries\\java\\org/antlr/antlr4-runtime/4.13.2/antlr4-runtime-4.13.2.jar;libraries\\java\\org/anarres/jcpp/1.4.14/jcpp-1.4.14.jar;libraries\\java\\io/netty/netty-codec-http/4.1.97.Final/netty-codec-http-4.1.97.Final.jar;libraries\\java\\org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar;libraries\\java\\org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;libraries\\java\\commons-logging/commons-logging/1.3.4/commons-logging-1.3.4.jar;libraries\\java\\software/bernie/geckolib/fGeckolib-1.21.11-fabric-4.2.1.jar", "-DFabricMcEmu= net.minecraft.client.main.Main ", "net.digitalingot.rustextension.ProxiedStart", "net.fabricmc.loader.launch.knot.KnotClient", "--username", "Ayzeriscooler", "--version", "1.21.11-feather", "--gameDir", "C:\\Users\\adifr\\AppData\\Roaming/.minecraft", "--assetsDir", "assets", "--assetIndex", "1.21.11-feather-game", "--uuid", "f6e33e294191469fb18e897bf64512b6", "--accessToken", "<hidden>", "--userType", "msa", "--versionType", "feather"]
+[J] [18:56:38] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[J] [18:56:38] [ForkJoinPool-1-worker-6/WARN]: Mod orbital uses the version fabric-1.3.0-mc1.21.11 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[J] [18:56:38] [ForkJoinPool-1-worker-5/WARN]: Mod feather uses the version release/9fea4b10 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'release/9fea4b10'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[J] [18:56:38] [main/WARN]: Warnings were found!
+[J]  - Mod 'OptiGUI' (optigui) 2.3.0-beta.9+1.21.9 recommends any version of animatica, which is missing!
+[J] 	 - You should install any version of animatica for the optimal experience.
+[J] [18:56:38] [main/INFO]: Loading 151 mods:
+[J] 	- appleskin 3.0.8+mc1.21.11
+[J] 	- bobberbegone 1.0.0+1.21.2+
+[J] 	- carpet 1.4.194+v251223
+[J] 	- cherishedworlds 15.1.0+1.21.11
+[J] 	- chunky 1.4.55
+[J] 	- cloth-config 21.11.153
+[J] 	   \-- cloth-basic-math 0.6.1
+[J] 	- clumps 29.0.0.1
+[J] 	- continuity 3.0.1-beta.1+1.21.11
+[J] 	- controlling 29.0.1
+[J] 	- cullleaves 4.1.1.1
+[J] 	- dynamic_fps 3.11.4
+[J] 	   \-- net_lostluma_battery 2.0.0
+[J] 	- enchant-outline 3.1
+[J] 	- essential-container 1.0.0
+[J] 	   \-- essential-loader 1.2.5
+[J] 	- fabric-api 0.141.3+1.21.11
+[J] 	   |-- fabric-api-base 1.0.5+4ebb5c083e
+[J] 	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+[J] 	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+[J] 	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+[J] 	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+[J] 	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+[J] 	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+[J] 	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+[J] 	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+[J] 	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+[J] 	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+[J] 	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+[J] 	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+[J] 	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+[J] 	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+[J] 	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+[J] 	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+[J] 	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+[J] 	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+[J] 	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+[J] 	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+[J] 	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+[J] 	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+[J] 	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+[J] 	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+[J] 	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+[J] 	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+[J] 	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+[J] 	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+[J] 	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+[J] 	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+[J] 	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+[J] 	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+[J] 	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+[J] 	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+[J] 	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+[J] 	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+[J] 	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+[J] 	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+[J] 	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+[J] 	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+[J] 	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+[J] 	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+[J] 	- fabric-language-kotlin 1.13.9+kotlin.2.3.10
+[J] 	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.10
+[J] 	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.10
+[J] 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.10
+[J] 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.10
+[J] 	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.31.0
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.10.0
+[J] 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.10.0
+[J] 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.10.0
+[J] 	- fabricloader 0.18.4
+[J] 	   \-- mixinextras 0.5.0
+[J] 	- feather release/9fea4b10
+[J] 	- ferritecore 8.2.0
+[J] 	- fusion 1.2.12+a
+[J] 	- glitchcore 21.11.0.2
+[J] 	   |-- com_electronwill_night-config_core 3.6.7
+[J] 	   |-- com_electronwill_night-config_toml 3.6.7
+[J] 	   \-- net_jodah_typetools 0.6.3
+[J] 	- immediatelyfast 1.14.2+1.21.11
+[J] 	   \-- net_lenni0451_reflect 1.6.1+curseforge
+[J] 	- iris 1.10.6+mc1.21.11
+[J] 	   |-- io_github_douira_glsl-transformer 3.0.0-pre3
+[J] 	   |-- org_anarres_jcpp 1.4.14
+[J] 	   \-- org_antlr_antlr4-runtime 4.13.1
+[J] 	- java 21
+[J] 	- libjf 3.19.8
+[J] 	   |-- libjf-base 3.19.8
+[J] 	   |-- libjf-config-commands 3.19.8
+[J] 	   |-- libjf-config-core-v2 3.19.8
+[J] 	   |-- libjf-config-network-v0 3.19.8
+[J] 	   |-- libjf-config-ui-tiny 3.19.8
+[J] 	   |-- libjf-data-manipulation-v0 3.19.8
+[J] 	   |-- libjf-data-v0 3.19.8
+[J] 	   |-- libjf-mainhttp-v0 3.19.8
+[J] 	   |-- libjf-resource-pack-entry-widgets-v0 3.19.8
+[J] 	   |-- libjf-translate-v1 3.19.8
+[J] 	   |-- libjf-unsafe-v0 3.19.8
+[J] 	   \-- libjf-web-v1 3.19.8
+[J] 	- lithium 0.21.3+mc1.21.11
+[J] 	- malilib 0.27.5
+[J] 	- midnightlib 1.9.2
+[J] 	- minecraft 1.21.11
+[J] 	- modernfix 5.25.2-build.4
+[J] 	- modmenu 17.0.0-beta.2
+[J] 	- moreculling 1.6.2
+[J] 	   |-- conditional-mixin 0.6.3
+[J] 	   \-- mixinsquared 0.2.0
+[J] 	- optigui 2.3.0-beta.9+1.21.9
+[J] 	   |-- org_apache_commons_commons-text 1.12.0
+[J] 	   \-- org_ini4j_ini4j 0.5.4
+[J] 	- orbital fabric-1.3.0-mc1.21.11
+[J] 	- osc 1.21.7
+[J] 	- placeholder-api 2.8.2+1.21.10
+[J] 	- prickle 21.11.1
+[J] 	- reeses-sodium-options 2.0.3+mc1.21.11
+[J] 	- removewardeneffect 0.0.2-1.21.9
+[J] 	- replaymod 1.21.11-2.6.25
+[J] 	- replayvoicechat 1.21.11-1.3.12
+[J] 	- searchables 1.0.2
+[J] 	- shieldstatus 4.1.2-1.21.11
+[J] 	- shulkerboxtooltip 5.2.15+1.21.11
+[J] 	- slyde 1.7.15
+[J] 	- sodium 0.8.4+mc1.21.11
+[J] 	- sodium-extra 0.8.3+mc1.21.11
+[J] 	- tier-tagger 2.4.0+mc1.21.11
+[J] 	- ukulib 1.10.2+1.21.11
+[J] 	   \-- com_moandjiezana_toml_toml4j 0.7.2
+[J] 	- voicechat 1.21.11-2.6.12
+[J] 	   \-- voicechat_api 2.6.0
+[J] 	- voxy 0.2.11-alpha
+[J] 	   |-- org_apache_commons_commons-pool2 2.12.0
+[J] 	   |-- org_lwjgl_lwjgl-lmdb 3.3.3
+[J] 	   |-- org_lwjgl_lwjgl-lmdb_natives-linux 3.3.3
+[J] 	   |-- org_lwjgl_lwjgl-lmdb_natives-windows 3.3.3
+[J] 	   |-- org_lwjgl_lwjgl-zstd 3.3.3
+[J] 	   |-- org_lwjgl_lwjgl-zstd_natives-linux 3.3.3
+[J] 	   |-- org_lwjgl_lwjgl-zstd_natives-windows 3.3.3
+[J] 	   |-- org_lz4_lz4-java 1.8.0
+[J] 	   |-- org_rocksdb_rocksdbjni 10.2.1
+[J] 	   |-- org_tukaani_xz 1.10
+[J] 	   \-- redis_clients_jedis 5.1.0
+[J] 	- walksylib 0.9.992+1.21.11
+[J] 	- xaerominimap 25.3.10
+[J] 	   \-- xaerolib 1.1.0
+[J] 	- xaeroworldmap 1.40.11
+[J] 	   \-- xaerolib 1.1.0
+[J] 	- xdbar 1.4.2-1.21.11
+[J] [18:56:38] [main/INFO]: Starting unsafe init
+[J] [18:56:38] [main/INFO]: LibJF unsafe init completed
+[J] [18:56:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adifr/AppData/Roaming/.minecraft/libraries/java/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[J] [18:56:38] [main/INFO]: Compatibility level set to JAVA_21
+[J] [18:56:38] [main/WARN]: Reference map 'cherishedworlds.refmap.json' for cherishedworlds.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:38] [main/WARN]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:38] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:38] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
+[J] [18:56:38] [main/WARN]: Reference map '' for enchantment-glint-outline.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/INFO]: Optifine is not detected
+[J] [18:56:39] [main/INFO]: Iris detected
+[J] [18:56:39] [main/INFO]: [Feather::EssentialMod] Installed: true
+[J] [18:56:39] [main/WARN]: Reference map 'fusion.mixins.refmap.json' for fusion.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/INFO]: Discovered LibJF asm plugin in libjf-data-manipulation-v0
+[J] [18:56:39] [main/INFO]: Loaded configuration file for Lithium: 168 options available, 0 override(s) found.
+[J] [18:56:39] [main/INFO]: Loaded configuration file for ModernFix 5.25.2-build.4: 60 options available, 0 override(s) found
+[J] [18:56:39] [main/INFO]: Applying Nashorn fix
+[J] [18:56:39] [main/WARN]: Reference map 'moreculling.refmap.json' for moreculling.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'moreculling.refmap.json' for moreculling.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'mixins.nonmmlauncher.replaymod.refmap.json' for mixins.nonmmlauncher.replaymod.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/INFO]: Loaded configuration file for Sodium: 35 options available, 1 override(s) found
+[J] [18:56:39] [main/INFO]: Loaded configuration file for Sodium Extra: 26 options available, 0 override(s) found
+[J] [18:56:39] [main/WARN]: Reference map 'sodium-extra.refmap.json' for sodium-extra.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'xaerominimap.refmap.json' for xaerohud.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[J] [18:56:39] [main/WARN]: Error loading class: mezz/jei/fabric/platform/RenderHelper (java.lang.ClassNotFoundException: mezz/jei/fabric/platform/RenderHelper)
+[J] [18:56:39] [main/WARN]: @Mixin target mezz.jei.fabric.platform.RenderHelper was not found appleskin.jei.mixins.json:JEIRenderHelperMixin from mod appleskin
+[J] better-enchants: Sodium found. Applying mixin: net.enchantoutline.mixin.sodium.ModelCuboidMixin
+[J] [18:56:40] [main/INFO]: Registering config for slyde
+[J] [18:56:40] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[J] [18:56:40] [main/WARN]: Error loading class: com/moulberry/flashback/record/FlashbackMeta (java.lang.ClassNotFoundException: com/moulberry/flashback/record/FlashbackMeta)
+[J] [18:56:40] [main/WARN]: @Mixin target com.moulberry.flashback.record.FlashbackMeta was not found client.voxy.mixins.json:flashback.MixinFlashbackMeta from mod voxy
+[J] [18:56:40] [main/WARN]: Error loading class: com/moulberry/flashback/record/Recorder (java.lang.ClassNotFoundException: com/moulberry/flashback/record/Recorder)
+[J] [18:56:40] [main/WARN]: @Mixin target com.moulberry.flashback.record.Recorder was not found client.voxy.mixins.json:flashback.MixinFlashbackRecorder from mod voxy
+[J] [18:56:40] [main/WARN]: Error loading class: me/cortex/nvidium/RenderPipeline (java.lang.ClassNotFoundException: me/cortex/nvidium/RenderPipeline)
+[J] [18:56:40] [main/WARN]: @Mixin target me.cortex.nvidium.RenderPipeline was not found client.voxy.mixins.json:nvidium.MixinRenderPipeline from mod voxy
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/vertices/ImmediateState (java.lang.ClassNotFoundException: net/coderbot/iris/vertices/ImmediateState)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/IrisRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/IrisRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/vertices/ImmediateState (java.lang.ClassNotFoundException: net/coderbot/iris/vertices/ImmediateState)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/vertices/ImmediateState (java.lang.ClassNotFoundException: net/coderbot/iris/vertices/ImmediateState)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/IrisRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/IrisRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/IrisRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/IrisRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:40] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:40] [SentryExecutorServiceThreadFactory-0/WARN]: Error loading class: net/optifine/Config (java.lang.ClassNotFoundException: net/optifine/Config)
+[J] [18:56:40] [SentryExecutorServiceThreadFactory-0/WARN]: Error loading class: net/optifine/render/ChunkVisibility (java.lang.ClassNotFoundException: net/optifine/render/ChunkVisibility)
+[J] [18:56:40] [SentryExecutorServiceThreadFactory-0/WARN]: Error loading class: shadersmod/client/ShadersRender (java.lang.ClassNotFoundException: shadersmod/client/ShadersRender)
+[J] [18:56:40] [SentryExecutorServiceThreadFactory-0/WARN]: Error loading class: net/optifine/shaders/ShadersRender (java.lang.ClassNotFoundException: net/optifine/shaders/ShadersRender)
+[J] [18:56:42] [main/WARN]: Found newer Essential Loader (stage2) version 1.7.3 [stable], skipping at user request
+[J] [18:56:42] [main/INFO]: Starting Essential Loader (stage2) version 1.6.6 (64b13bbd248a9bb10a3dc68389eacdcc) [stable]
+[J] [18:56:42] [main/WARN]: Found newer Essential version 1.3.10.6 [stable], skipping at user request
+[J] [18:56:42] [main/INFO]: Starting Essential v1.3.10.4 (#9adecc609e) [stable]
+[J] [18:56:42] [main/INFO]: Java: OpenJDK 64-Bit Server VM (v21.0.3) by Eclipse Adoptium (Eclipse Adoptium)
+[J] [18:56:42] [main/INFO]: Java Path: C:\Users\adifr\AppData\Roaming\.minecraft\jre\OpenJDK21U-jre_x64_windows_hotspot_21.0.3_9\bin
+[J] [18:56:42] [main/INFO]: Java Info: mixed mode, sharing
+[J] [18:56:42] [main/INFO]: JVM Arguments: 
+[J]   - -Djava.library.path=libraries/native\net/digitalingot/fcef/0.1.1\extracted/;libraries/native\net/digitalingot/fwebp/0.0.2\extracted/;libraries/native\net/digitalingot/favif/0.0.1\extracted/;libraries/native\com/discord/discord-game-sdk/3.2.1\extracted/;libraries/native\net/digitalingot/fdiscord/0.0.1\extracted/;libraries/native\net/digitalingot/fjni/0.0.2\extracted/;libraries/native\net/digitalingot/cef_binary/103.0.0\extracted/;libraries/native\org/jitsi/libjitsi-opus-native/1.1-32-g2a5a8171\extracted/;libraries/native\com/mojang/jtracy/1.0.37\extracted/;libraries/native\org/lwjgl/lwjgl-freetype/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl-glfw/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl-jemalloc/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl-openal/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl-opengl/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl-stb/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl-tinyfd/3.3.3\extracted/;libraries/native\org/lwjgl/lwjgl/3.3.3\extracted/
+[J]   - --add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+[J]   - --add-opens=java.desktop/java.awt.color=ALL-UNNAMED
+[J]   - --add-opens=java.desktop/java.awt=ALL-UNNAMED
+[J]   - --add-opens=java.base/java.lang=ALL-UNNAMED
+[J]   - -Xmx2048M
+[J]   - -XX:+UnlockExperimentalVMOptions
+[J]   - -XX:+UseG1GC
+[J]   - -XX:G1NewSizePercent=20
+[J]   - -XX:G1ReservePercent=20
+[J]   - -XX:MaxGCPauseMillis=50
+[J]   - -XX:G1HeapRegionSize=32M
+[J]   - -Dlog4j2.formatMsgNoLookups=true
+[J]   - -XX:ErrorFile=feather/java_error.log
+[J]   - -Djavax.accessibility.assistive_technologies=
+[J]   - -Djavax.net.ssl.trustStoreType=WINDOWS-ROOT
+[J]   - -DFabricMcEmu= net.minecraft.client.main.Main 
+[J] [18:56:42] [main/INFO]: OS: Windows 11 (v10.0) (Arch: amd64)
+[J] [18:56:43] [main/INFO]: Registering config for libjf-translate-v1
+[J] [18:56:43] [main/INFO]: Registering config for libjf-web-v1
+[J] [18:56:43] [main/INFO]: Searching for graphics cards...
+[J] [18:56:43] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5060', adapterType=0x0000031B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_74b0ab655986054e\nvoglv64.dll', openglIcdVersion=32.0.15.7688}
+[J] [18:56:43] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[J] [18:56:43] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[J] [18:56:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[J] [18:56:46] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 1217 milliseconds
+[J] [18:56:50] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[J] [18:56:57] [main/INFO]: Vanilla bootstrap took 9504 milliseconds
+[J] [18:56:57] [main/INFO]: Sodium: [0.8.4+mc1.21.11], Iris: [1.10.6+mc1.21.11]
+[J] [18:56:57] [main/INFO]: Assigning MaLiLib Pipelines to Iris Programs:
+[J] [18:56:57] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/IrisRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/IrisRenderingPipeline)
+[J] [18:56:57] [main/WARN]: Error loading class: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/irisshaders/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:57] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/newshader/NewWorldRenderingPipeline)
+[J] [18:56:57] [main/WARN]: Error loading class: net/coderbot/iris/vertices/ImmediateState (java.lang.ClassNotFoundException: net/coderbot/iris/vertices/ImmediateState)
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/no_depth/no_cull: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/no_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_1: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_2: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_3: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/no_cull: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/greater_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/depth_mask: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/no_depth/no_cull: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/no_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_1: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_2: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_3: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/no_cull: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/greater_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/depth_mask: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/text_plate/no_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/text_plate: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_depth/offset: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_depth: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/offset/no_cull: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/offset: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/depth_mask: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_cull: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/no_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/offset_1: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/offset_2: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/offset_3: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/greater_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/depth_mask: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/no_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/offset_1: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/offset_2: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/offset_3: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/greater_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/depth_mask: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/no_depth/offset: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/offset/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/offset: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/depth_mask: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines: LINES
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/no_depth/no_cull: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/no_depth: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_1: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_2: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_3: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/no_cull: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/greater_depth: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/depth_mask: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/no_depth/no_cull: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/no_depth: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_1: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_2: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_3: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/no_cull: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/greater_depth: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/depth_mask: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/lequal_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_1: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_2: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_3: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/lequal_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_1: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_2: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_3: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_1: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_2: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_3: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_depth/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_depth: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_cull: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_1: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_2: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_3: LINES
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple: LINES
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/gui_overlay: BASIC_COLOR
+[J] [18:56:57] [main/WARN]: Found okay program match for malilib:pipeline/gui_textured_overlay: TEXTURED_COLOR
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/solid_terrain/masa: TERRAIN_SOLID
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/wireframe/masa: LINES
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/cutout_terrain/masa: TERRAIN_CUTOUT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/translucent/masa: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/tripwire_terran/masa: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/solid_terrain/masa/offset: TERRAIN_SOLID
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/wireframe/masa/offset: LINES
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/cutout_terrain/masa/offset: TERRAIN_CUTOUT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/translucent/masa/offset: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/tripwire_terrain/masa/offset: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/solid_block/masa: MOVING_BLOCK
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/cutout_block/masa: TERRAIN_CUTOUT
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/tripwire_block/masa: TEXT_BE
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/solid_block/masa/offset: MOVING_BLOCK
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/cutout_block/masa/offset: TERRAIN_CUTOUT
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/tripwire_block/masa/offset: TEXT_BE
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/solid/masa: TERRAIN_SOLID
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/wireframe/masa: LINES
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/legacy/cutout/masa: TERRAIN_CUTOUT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/translucent/masa: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/tripwire/masa: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/solid/masa/offset: TERRAIN_SOLID
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/wireframe/masa/offset: LINES
+[J] [18:56:57] [main/WARN]: Found fine program match for malilib:pipeline/legacy/cutout/masa/offset: TERRAIN_CUTOUT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/translucent/masa/offset: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/WARN]: Found *decent* program match for malilib:pipeline/legacy/tripwire/masa/offset: TERRAIN_TRANSLUCENT
+[J] [18:56:57] [main/INFO]: Completely ignored arguments: [--userType, msa]
+[J] [18:56:57] [Render thread/WARN]: Method overwrite conflict for setSession in mixins.feather.core.json:rh from mod feather, previously written by gg.essential.mixins.transformers.client.MixinMinecraft. Skipping method.
+[J] [18:56:58] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[J] [18:56:58] [Render thread/INFO]: Setting user: Ayzeriscooler
+[J] [18:56:59] [Render thread/INFO]: Starting DI!
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: java.io.IOException: Could not load image: IDAT section larger than 2^30 bytes
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at gg.essential.util.lwjgl3.impl.NativeImageReaderImpl.getImageData(NativeImageReaderImpl.kt:84)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at gg.essential.util.lwjgl3.impl.NativeImageReaderImpl.getImageData(NativeImageReaderImpl.kt:56)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.DiskWindowedImageProvider.loadImage(DiskWindowedImageProvider.kt:54)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.DiskWindowedImageProvider.provide(DiskWindowedImageProvider.kt:42)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.CloudflareImageProvider.provide(CloudflareImageProvider.kt:50)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.PostProcessWindowedImageProvider.provide(PostProcessWindowedImageProvider.kt:32)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.FileCachedWindowedImageProvider.provide(FileCachedWindowedImageProvider.kt:70)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.network.connectionmanager.media.ScreenshotManager$PrecomputeTask.call(ScreenshotManager.java:871)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.network.connectionmanager.media.ScreenshotManager$PrecomputeTask.call(ScreenshotManager.java:855)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: java.io.IOException: Could not load image: IDAT section larger than 2^30 bytes
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at gg.essential.util.lwjgl3.impl.NativeImageReaderImpl.getImageData(NativeImageReaderImpl.kt:84)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at gg.essential.util.lwjgl3.impl.NativeImageReaderImpl.getImageData(NativeImageReaderImpl.kt:56)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.DiskWindowedImageProvider.loadImage(DiskWindowedImageProvider.kt:54)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.DiskWindowedImageProvider.provide(DiskWindowedImageProvider.kt:42)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.CloudflareImageProvider.provide(CloudflareImageProvider.kt:50)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.PostProcessWindowedImageProvider.provide(PostProcessWindowedImageProvider.kt:32)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.gui.screenshot.providers.FileCachedWindowedImageProvider.provide(FileCachedWindowedImageProvider.kt:70)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.network.connectionmanager.media.ScreenshotManager$PrecomputeTask.call(ScreenshotManager.java:871)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at knot//gg.essential.network.connectionmanager.media.ScreenshotManager$PrecomputeTask.call(ScreenshotManager.java:855)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[J] [18:56:59] [Screenshot Worker Thread 1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[J] [18:57:00] [Render thread/WARN]: Failed to read hosts file to check for modifications.
+[J] java.nio.file.NoSuchFileException: C:\Windows\System32\etc\hosts
+[J] 	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+[J] 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[J] 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[J] 	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+[J] 	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+[J] 	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+[J] 	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+[J] 	at java.base/java.nio.file.Files.newInputStream(Unknown Source)
+[J] 	at knot//kotlin.io.path.PathsKt__PathReadWriteKt.readText(PathReadWrite.kt:153)
+[J] 	at knot//kotlin.io.path.PathsKt__PathReadWriteKt.readText$default(PathReadWrite.kt:152)
+[J] 	at knot//gg.essential.util.HostsFileUtil.readHostsFile(HostsFileUtil.kt:33)
+[J] 	at knot//gg.essential.util.HostsFileUtil.access$readHostsFile(HostsFileUtil.kt:18)
+[J] 	at knot//gg.essential.util.HostsFileUtil$containsRulesForMojangServers$2.invoke(HostsFileUtil.kt:23)
+[J] 	at knot//gg.essential.util.HostsFileUtil$containsRulesForMojangServers$2.invoke(HostsFileUtil.kt:23)
+[J] 	at knot//kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+[J] 	at knot//gg.essential.util.HostsFileUtil.getContainsRulesForMojangServers(HostsFileUtil.kt:23)
+[J] 	at knot//gg.essential.network.connectionmanager.ConnectionManagerKt.connectLoop(ConnectionManagerKt.kt:145)
+[J] 	at knot//gg.essential.network.connectionmanager.ConnectionManagerKt.access$connectLoop(ConnectionManagerKt.kt:64)
+[J] 	at knot//gg.essential.network.connectionmanager.ConnectionManagerKt$connectLoopJob$1.invokeSuspend(ConnectionManagerKt.kt:96)
+[J] 	at knot//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+[J] 	at knot//kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+[J] 	at knot//kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:35)
+[J] 	at knot//kotlinx.coroutines.LazyStandaloneCoroutine.onStart(Builders.common.kt:204)
+[J] 	at knot//kotlinx.coroutines.JobSupport.startInternal(JobSupport.kt:394)
+[J] 	at knot//kotlinx.coroutines.JobSupport.start(JobSupport.kt:378)
+[J] 	at knot//gg.essential.network.connectionmanager.ConnectionManagerKt.start(ConnectionManagerKt.kt:99)
+[J] 	at knot//gg.essential.Essential.preinit(Essential.java:210)
+[J] 	at knot//gg.essential.lib.kbrewster.eventbus.EventBus$Subscriber.invoke(eventbus.kt:29)
+[J] 	at knot//gg.essential.util.EventBus.post(eventbus.kt:131)
+[J] 	at knot//gg.essential.mixins.impl.client.MinecraftHook.preinit(MinecraftHook.java:40)
+[J] 	at knot//net.minecraft.class_310.handler$fhn000$preinit(class_310.java:36746)
+[J] 	at knot//net.minecraft.class_310.<init>(class_310.java:474)
+[J] 	at knot//net.minecraft.client.main.Main.main$mixinextras$wrapped$13(Main.java:234)
+[J] 	at knot//net.minecraft.client.main.Main.mixinextras$bridge$main$mixinextras$wrapped$13$14(Main.java)
+[J] 	at knot//net.minecraft.client.main.Main.wrapMethod$bnk000$feather$NrOEe(Main.java:520)
+[J] 	at knot//net.minecraft.client.main.Main.main(Main.java)
+[J] 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+[J] 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+[J] 	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+[J] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+[J] 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[J] 	at net.digitalingot.rustextension.ProxiedStart.main(ProxiedStart.java:27)
+[J] [18:57:00] [Render thread/INFO]: Authenticating to Mojang as Ayzeriscooler (f6e33e29-4191-469f-b18e-897bf64512b6)
+[J] [18:57:01] [Render thread/INFO]: [STDOUT]: Orbital Systems Online.
+[J] [18:57:01] [DefaultDispatcher-worker-3/INFO]: Connecting to Essential Connection Manager...
+[J] [18:57:01] [DefaultDispatcher-worker-3/INFO]: Using Default JreDnsResolver
+[J] [18:57:01] [DefaultDispatcher-worker-3/INFO]: Using Default JreSocketFactory
+[J] [18:57:01] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[J] [18:57:01] [Render thread/INFO]: Found 8 tierlists: [nethop, smp, sword, pot, uhc, vanilla, mace, axe]
+[J] [18:57:01] [Render thread/INFO]: [voicechat] Compatibility version 20
+[J] [18:57:01] [WebSocketConnectReadThread-141/INFO]: Connected to Essential Connection Manager.
+[J] [18:57:01] [Render thread/INFO]: [voicechat] Loading plugins
+[J] [18:57:01] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[J] [18:57:01] [Render thread/INFO]: [voicechat] Initializing plugins
+[J] [18:57:01] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[J] [18:57:01] [Render thread/INFO]: [voicechat] Registering events for 'replayvoicechat'
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as RocksDB for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as Redis for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as ReadonlyCachingLayer for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config2 as AutoFragmentationAdaptor for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as FragmentationAdaptor for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered ConditionalStorageBackendConfig as ConditionalConfig for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as CompressionAdaptor for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered BasicPathInsertionConfig as BasicPathConfig for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as LMDB for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as Memory for config type StorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as Serializer for config type SectionStorageConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as ZSTD for config type CompressorConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as LZ4 for config type CompressorConfig
+[J] [18:57:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered 13 config types
+[J] [18:57:01] [ForkJoinPool.commonPool-worker-15/INFO]: Found latest version 2.4.0+mc1.21.11
+[J] [18:57:02] [ToggleableConfigWatchService/INFO]: Registering config for libjf-config-core-v2
+[J] [18:57:02] [ToggleableConfigWatchService/INFO]: Created config watch service
+[J] [18:57:02] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[J] [18:57:04] [Render thread/INFO]: Checking mod updates...
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Initializing Opus
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Successfully initialized Opus
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Initializing RNNoise
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Successfully initialized RNNoise
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Initializing Speex
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Successfully initialized Speex
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Initializing LAME
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Successfully initialized LAME
+[J] [18:57:05] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[J] [18:57:05] [Render thread/INFO]: Registering common data for channel xaerolib:main!
+[J] [18:57:05] [Render thread/INFO]: Registering client data for channel xaerolib:main!
+[J] [18:57:05] [Render thread/INFO]: Loading primary common config for channel xaerolib:main!
+[J] [18:57:05] [Render thread/INFO]: Loading server config profiles for channel xaerolib:main!
+[J] [18:57:05] [Render thread/INFO]: Loading primary client config for channel xaerolib:main!
+[J] [18:57:05] [Render thread/INFO]: Loading client config profiles for channel xaerolib:main!
+[J] [18:57:05] [Render thread/INFO]: Loading XaeroLib common 1/2!
+[J] [18:57:05] [Render thread/INFO]: Loading XaeroLib client 1/2!
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'malilib@0.27.5', (-> 0.27.7)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'sodium@0.8.4+mc1.21.11', (-> mc1.21.11-0.8.6-fabric)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'libjf@3.19.8', (-> 3.19.10)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'modernfix@5.25.2-build.4', (-> 5.26.2-build.1)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'cherishedworlds@15.1.0+1.21.11', (-> 15.2.0+1.21.11)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'lithium@0.21.3+mc1.21.11', (-> mc1.21.11-0.21.4-fabric)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'searchables@1.0.2', (-> 1.0.4)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'essential-container@1.0.0', (-> 1.3.10.6)
+[J] [18:57:05] [Worker-Main-1/INFO]: Update available for 'glitchcore@21.11.0.2', (-> 21.11.0.4)
+[J] [18:57:06] [Render thread/WARN]: io exception while checking patreon: Connect timed out
+[J] [18:57:06] [Render thread/INFO]: Registering common data for channel xaerominimap:main!
+[J] [18:57:07] [Render thread/INFO]: Registering client data for channel xaerominimap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading primary common config for channel xaerominimap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading server config profiles for channel xaerominimap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading primary client config for channel xaerominimap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading client config profiles for channel xaerominimap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[J] [18:57:07] [Render thread/INFO]: Registering common data for channel xaeroworldmap:main!
+[J] [18:57:07] [Render thread/INFO]: Registering client data for channel xaeroworldmap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading primary common config for channel xaeroworldmap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading server config profiles for channel xaeroworldmap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading primary client config for channel xaeroworldmap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading client config profiles for channel xaeroworldmap:main!
+[J] [18:57:07] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[J] [18:57:07] [Render thread/INFO]: OptiFine not detected.
+[J] [18:57:08] [ForkJoinPool.commonPool-worker-15/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[J] [18:57:08] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[J] [18:57:08] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[J] [18:57:08] [Render thread/INFO]: Initializing ImmediatelyFast 1.14.2+1.21.11 on NVIDIA GeForce RTX 5060/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.3.0 NVIDIA 576.88
+[J] [18:57:08] [Render thread/INFO]: Found Iris 1.10.6+mc1.21.11. Enabling compatibility.
+[J] [18:57:09] [Render thread/INFO]: Debug functionality is disabled.
+[J] [18:57:09] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[J] [18:57:09] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[J] [18:57:09] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[J] [18:57:09] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 5060/PCIe/SSE2
+[J] [18:57:09] [Render thread/INFO]: OpenGL Version: 3.3.0 NVIDIA 576.88
+[J] [18:57:09] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[J] [18:57:09] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
+[J] [18:57:09] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/Cobweb Outline.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/Cyan Cobwebs.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/Donut Smp Essentials 1.0.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/NewGlowingOres-§6[Border]§r.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/No Fog v1.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/No Fog v1.zip overlays metadata: Overlay "overlay_42" declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/NoFog.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/NoFog.zip overlays metadata: Overlay "overlay_42" declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:09] [Render thread/ERROR]: Couldn't load file/§6§lBetter Fullbright 1.21.10.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[J] [18:57:11] [Render thread/INFO]: Hardware information:
+[J] [18:57:11] [Render thread/INFO]: CPU: 16x Intel(R) Core(TM) i5-14400F
+[J] [18:57:11] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 5060/PCIe/SSE2 (Supports OpenGL 3.3.0 NVIDIA 576.88)
+[J] [18:57:11] [Render thread/INFO]: OS: Windows 11 (10.0)
+[J] [18:57:13] [Render thread/INFO]: Reloading ResourceManager: vanilla, appleskin, bobberbegone, carpet, cherishedworlds, chunky, cloth-config, conditional-mixin, continuity, controlling, cullleaves, dynamic_fps, enchant-outline, essential, essential-container, essential-loader, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, feather, fusion, immediatelyfast, iris, libjf, libjf-config-core-v2, libjf-config-network-v0, libjf-config-ui-tiny, libjf-data-v0, libjf-translate-v1, libjf-web-v1, lithium, malilib, midnightlib, modernfix, modmenu, moreculling, optigui, orbital, placeholder-api, reeses-sodium-options, removewardeneffect, replaymod, searchables, shieldstatus, shulkerboxtooltip, slyde, sodium, sodium-extra, tier-tagger, ukulib, voicechat, voxy, walksylib, xaerolib, xaerominimap, xaeroworldmap, xdbar, file/EvenBetterEnchants_v3_1.21.5+.zip, file/Shield Corrections [Colored].zip, file/[1.21.5+]clear_suspicious_stew不谜的谜之炖菜1.0.1.zip, file/visual_armor_trims_4.1.zip, file/Cobweb Outline.zip, file/Cyan Cobwebs.zip, file/Default-Dark-Mode-1.21.11-2026.2.0.zip, file/Vanilla+ 3D Crystal 1.21.zip, continuity:default, cullleaves:smartleaves, continuity:glass_pane_culling_fix, file/§6§lBetter Fullbright 1.21.10.zip, replaymod_lang, Essential Assets, essential
+[J] [18:57:14] [Render thread/WARN]: @ModifyConstant conflict. Skipping mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit from mod (unknown)->@ModifyConstant::modify(I)I with priority 1000, already redirected by mixins.feather.json:iXCla from mod feather->@ModifyConstant::AtKcI(I)I with priority 1000
+[J] [18:57:14] [Render thread/INFO]: Cached all modded block culling states
+[J] [18:57:14] [Worker-ResourceReload-15/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[J] [18:57:14] [DefaultDispatcher-worker-1/INFO]: Connected to Discord as ayzer1234
+[J] [18:57:14] [Worker-ResourceReload-15/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[J] [18:57:14] [Worker-ResourceReload-15/INFO]: Found unifont_pua-17.0.01.hex, loading
+[J] [18:57:16] [nioEventLoopGroup-3-1/INFO]: Initialized rust channel communication. Communicating on port 49222.
+[J] [18:57:16] [Worker-ResourceReload-7/WARN]: Missing block model: minecraft:builtin/entity
+[J] [18:57:17] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:block/hopper_side:
+[J]     minecraft:block_or_item:minecraft:break/hopper
+[J] [18:57:17] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:block/hopper:
+[J]     minecraft:block_or_item:minecraft:break/hopper
+[J] [18:57:17] [Worker-ResourceReload-2/WARN]: Missing texture references in model minecraft:item/end_crystal:
+[J]     particle
+[J] [18:57:17] [Render thread/DEBUG]: Rust Channel <- {"requestId":8,"callType":"drmRequest","message":{}}
+[J] [18:57:17] [Render thread/INFO]: [GeckoLib] Initializing...
+[J] [18:57:17] [Render thread/INFO]: Started Feather (9fea4b10)
+[J] [18:57:17] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[J] [18:57:17] [Render thread/INFO]: New world map region cache hash code: 1474865038
+[J] [18:57:17] [nioEventLoopGroup-3-1/DEBUG]: Rust Channel -> {"requestId":8,"callType":"callback","message":null,"success":{"channel":"release"},"failure":null}
+[J] [18:57:18] [feather-scheduler-0/INFO]: Setting core backend token
+[J] [18:57:18] [feather-scheduler-0/INFO]: Authenticated with core backend
+[J] [18:57:18] [feather-scheduler-0/DEBUG]: Fetching new game token...
+[J] [18:57:18] [Render thread/ERROR]: io exception while checking versions: Online mod data expired! Date: Fri Mar 13 10:44:01 PDT 2026
+[J] [18:57:18] [Render thread/INFO]: Registered player tracker system: map_synced
+[J] [18:57:18] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[J] [18:57:18] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[J] [18:57:18] [Render thread/INFO]: No Optifine!
+[J] [18:57:18] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[J] [18:57:18] [Render thread/INFO]: Xaero's World Map: Iris found!
+[J] [18:57:18] [Render thread/WARN]: Unable to read property: level with value: "0" for blockstate: {Name:"minecraft:water_cauldron",Properties:{level:"0"}}
+[J] [18:57:18] [Render thread/WARN]: Resource pack file/Default-Dark-Mode-1.21.11-2026.2.0.zip is not compatible with font atlas resizing. Temporarily disabling font atlas resizing.
+[J] [18:57:18] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[J] [18:57:18] [Render thread/INFO]: Sound engine started
+[J] [18:57:18] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[J] [18:57:18] [feather-scheduler-0/DEBUG]: Rust Channel <- {"requestId":17,"callType":"accountSwitchDetails","message":{}}
+[J] [18:57:18] [nioEventLoopGroup-3-1/DEBUG]: Rust Channel -> {"requestId":17,"callType":"callback","message":null,"success":{"accounts":[{"email":"","uuid":"f6e33e29-4191-469f-b18e-897bf64512b6","name":"Ayzeriscooler","authToken":"eyJraWQiOiIwNDkxODEiLCJhbGciOiJSUzI1NiJ9.eyJ4dWlkIjoiMjUzNTQ2MzcwOTkzMzI0NyIsImFnZyI6IkFkdWx0Iiwic3ViIjoiYTA1ZWU4ZWYtM2E5MS00NWE2LTk3MmMtMWQ0Y2I1M2E4YTUwIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsib3JkZXJzXzIwMjIiLCJtdWx0aXBsYXllciIsInR3b2ZhY3RvcmF1dGgiLCJtc2FtaWdyYXRpb25fc3RhZ2U0Il0sInByb2ZpbGVzIjp7Im1jIjoiZjZlMzNlMjktNDE5MS00NjlmLWIxOGUtODk3YmY2NDUxMmI2In0sInBsYXRmb3JtIjoiUENfTEFVTkNIRVIiLCJwZmQiOlt7InR5cGUiOiJtYyIsImlkIjoiZjZlMzNlMjktNDE5MS00NjlmLWIxOGUtODk3YmY2NDUxMmI2IiwibmFtZSI6IkF5emVyaXNjb29sZXIifV0sIm5iZiI6MTc3MzUyMjcxOCwiZXhwIjoxNzczNjA5MTE4LCJpYXQiOjE3NzM1MjI3MTgsImFpZCI6IjdjODJjMjM0LTY3ZjUtNGFiMS1hOGEyLTg0MmZlODFhYzM5ZSJ9.Wxa3n-PyYfJJN5tLScQ1X26e_UXeCcgN_yOMBmtDD_voIwXgaQFNsI1W768xoxbxRSoKcMydQze7w0HSUtVmFx379oX_aGhn8iBRZ188-PK5OEu0nqsZfBHPDMluKl2F0ZZrZmIHmKtu9e-O6NAl37j8MjY7717P1xBuhv6Ndx-Kbh3HpGszTvy2nKVejS1e8mfxQ00WU0vh69H3-L1N8oKPSRzLpHQBLlYGKTfGuveBsLnmjSKz_pnvIPcaOF9iQkKutBj7AmKZj069Rxc4l5dK7ljdu-fZbdxds1d-QbWsbSAGUN5ggEO6fn6WHr5BEom67QeGnt_ZSPQO3HeIHg","expirationDate":"2026-03-15T21:11:58.973Z","refreshToken":"M.C501_BL2.0.U.-ChL7s1c3KjPXhrJ6yrv832!7mP6mikawIFFnNR7BFu3W9bX6QgDkV37oFW2sqGT1GyQAT1CLJ4di!es!7njvip!hDWCpHf7KiD5vGfxKYUh8eqtgynSu0OKY8lj97W5E4FqPE*gemzI6BJgal8AWe*f6MlslgY1TxAK9eISjtRTUJt!kOX*HScJwO2ZxD7ol0hbpDa4!26fqsFTmku4Iyw83PBet4gSEec8lIPoeXVg2JOOzoB4qhRwAJESVWlvQoIkXLV0yNtcKXw7SgMzw5ZR0MxMMPv4cYVO6aKow*Z3P66kBkC4vp2rEP1eB!J2FN7D9bOJyPAfy9jI6zSHh6TvjCFXZfQlVY1x2gTsJM63E57uL5Tf41y!r1yvF5SqDmA$$"}]},"failure":null}
+[J] [18:57:18] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[J] [18:57:18] [feather-scheduler-0/ERROR]: public boolean net.digitalingot.feather.kE$lo.aIX translated using FieldNamingPolicy.IDENTITY
+[J] [18:57:18] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 4096x4096x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[J] [18:57:18] [feather-scheduler-0/ERROR]: public net.digitalingot.feather.cJ net.digitalingot.feather.lX$lo.aVb translated using FieldNamingPolicy.IDENTITY
+[J] [18:57:18] [nioEventLoopGroup-4-1/INFO]: Established Redstone connection to redstone.feathermc.com/5.161.61.153:1668
+[J] [18:57:18] [nioEventLoopGroup-4-1/INFO]: Authenticating with Redstone...
+[J] [18:57:18] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/items.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[J] [18:57:18] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[J] [18:57:18] [nioEventLoopGroup-4-1/INFO]: Authenticated with Redstone
+[J] [18:57:19] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[J] [18:57:19] [nioEventLoopGroup-2-1/INFO]: Connected to chat server
+[J] [18:57:19] [Render thread/WARN]: io exception while checking versions: Online mod data expired! Date: Fri Mar 13 10:44:01 PDT 2026
+[J] [18:57:19] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[J] [18:57:19] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[J] [18:57:19] [Render thread/INFO]: No Optifine!
+[J] [18:57:19] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[J] [18:57:19] [Render thread/INFO]: Xaero's Minimap: Iris found!
+[J] [18:57:19] [Render thread/INFO]: Loading XaeroLib common 2/2!
+[J] [18:57:19] [Render thread/INFO]: Loading XaeroLib client 2/2!
+[J] [18:57:20] [Render thread/INFO]: Created ItemAtlas with POWER_OF_TWO_SLAB packing, HYBRID_TTL_LRU eviction, update phases [GUI_START, GUI_BEFORE_PRE_BLUR, GUI_BEFORE_POST_BLUR, GUI_END]
+[J] [18:57:20] [Render thread/INFO]: Created ItemAtlas with POWER_OF_TWO_SLAB packing, HYBRID_TTL_LRU eviction, baseItemSize=16
+[J] [18:57:20] [Render thread/INFO]: Created RdgEntityAtlas with SHELF_BEST_HEIGHT_FIT packing, TTL_SLIDING eviction, update phases [GUI_START, GUI_BEFORE_PRE_BLUR, GUI_BEFORE_POST_BLUR, GUI_END]
+[J] [18:57:20] [Render thread/INFO]: Created RdgEntityAtlas: 64x64 slots, 250ms sliding TTL, phases [GUI_START, GUI_BEFORE_PRE_BLUR, GUI_BEFORE_POST_BLUR, GUI_END]
+[J] [18:57:20] [Render thread/INFO]: 29675 cache(s) were cleared!
+[J] [18:57:20] [Render thread/INFO]: Forcing leaf culling as requested by resourcepack
+[J] [18:57:21] [feather-scheduler-2/INFO]: Passed DRM check
+[J] [18:57:21] [Render thread/INFO]: Created panorama cubemap 1000x1000 with 10 mip levels
+[J] [18:57:22] [Render thread/WARN]: Game took 45.421 seconds to start
+[J] [19:07:41] [Render thread/ERROR]: Can't ping scarylarryishairy.feathermc.gg: Disconnected
+[J] [19:07:42] [Render thread/ERROR]: Can't ping UmbraSmpS1.feathermc.gg: Disconnected
+[J] [19:07:43] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[J] [19:07:43] [feather-scheduler-0/ERROR]: URL is not valid!: No such host is known (nil)
+[J] [19:07:43] [feather-scheduler-0/ERROR]: Address is: nil
+[J] [19:07:45] [Render thread/INFO]: Connecting to na.minemen.club, 25565
+[J] [19:07:45] [Render thread/INFO]: ItemAtlas: Scale changed 2.0→5.0, invalidated 0 entries for re-slotting
+[J] [19:07:45] [Render thread/INFO]: [System] [CHAT] [Replay Mod] Recording started
+[J] [19:07:45] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[J] [19:07:46] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[J] [19:07:46] [Render thread/INFO]: ItemAtlas: Scale changed 5.0→6.0, invalidated 0 entries for re-slotting
+[J] [19:07:47] [Netty NIO IO #10/WARN]: Received invalid channel identifier "legacy:fml|hs"
+[J] [19:07:47] [Render thread/INFO]: Minimap required item set to nothing.
+[J] [19:07:47] [Render thread/INFO]: New Xaero hud session initialized!
+[J] [19:07:47] [Render thread/INFO]: Fullscreen map required item set to nothing.
+[J] [19:07:47] [Render thread/INFO]: New world map session initialized!
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Initializing voxy instance
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Dedicated voxy thread pool size: 6
+[J] [19:07:47] [Render thread/INFO]: Reloading pipeline on dimension change: null => minecraft:overworld
+[J] [19:07:47] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Creating new world engine: -1679553155804676979@1849918616
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Creating Voxy render system
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.ct.ce.rg.sn.gy.BasicSectionGeometryData]: Creating and zeroing 4095MB geometry buffer driver states 5935MB of free memory
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.ct.ce.rg.sn.gy.BasicSectionGeometryData]: if your game crashes/exits here without any other log message, try manually decreasing the geometry capacity
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.ct.ce.rg.sn.gy.BasicSectionGeometryData]: Running on nvidia, using workaround sparse buffer allocation
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.ct.ce.rg.sn.gy.BasicSectionGeometryData]: Successfully allocated the geometry buffer in 2ms
+[J] [19:07:47] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Voxy render system created with 4294966272 geometry capacity, using pipeline 'NormalRenderPipeline' with renderer 'MDICSectionRenderer'
+[J] [19:07:47] [Render thread/INFO]: Started 10 worker threads
+[J] [19:07:48] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Dedicated voxy thread pool size: 1
+[J] [19:07:48] [Render thread/WARN]: Method overwrite conflict for setExhaustion in carpet.mixins.json:FoodData_scarpetMixin from mod carpet, previously written by squeek.appleskin.mixin.HungerManagerMixin. Skipping method.
+[J] [19:07:48] [Render thread/INFO]: [System] [CHAT] Chat messages can't be verified
+[J] [19:07:48] [Render thread/INFO]: [System] [CHAT] Messages sent on this server may be modified and might not reflect the original message
+[J] [19:07:48] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[J] [19:07:48] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
+[J] [19:07:48] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 51 providers for mod shulkerboxtooltip
+[J] [19:07:48] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[J] [19:07:48] [Render thread/WARN]: [me.cx.vy.cl.is.DHImporter]: Unable to load sqlite JDBC or lzma decompressor, DHImporting wont be available
+[J] [19:07:48] [Render thread/INFO]: Detected ImmediatelyFast! Disabling HUD Batching incompatibility...
+[J] [19:07:48] [Render thread/INFO]: Stopping worker threads
+[J] [19:07:48] [Render thread/INFO]: Started 10 worker threads
+[J] [19:07:48] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[J] [19:07:48] [Render thread/WARN]: Ignoring player info update for unknown player f6e33e29-4191-469f-b18e-897bf64512b6 ([UPDATE_DISPLAY_NAME])
+[J] [19:07:48] [Render thread/WARN]: Ignoring player info update for unknown player f6e33e29-4191-469f-b18e-897bf64512b6 ([UPDATE_LIST_ORDER])
+[J] [19:07:48] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: 400 ms are we kidding
+[J] [19:07:48] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
+[J] [19:07:48] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
+[J] [19:07:48] [Render thread/INFO]: Stopping worker threads
+[J] [19:07:48] [Render thread/INFO]: Started 10 worker threads
+[J] [19:07:48] [Render thread/WARN]: Time from main menu to in-game was 3.785447 seconds
+[J] [19:07:48] [Render thread/WARN]: Total time to load game and open world was 49.206448 seconds
+[J] [19:07:49] [Render thread/DEBUG]: Created ItemAtlas_Page0 (2048x2048, 31x31 slots of 64px, managedTextures=true)
+[J] [19:07:49] [Render thread/DEBUG]: ItemAtlas_Page0 managed textures created
+[J] [19:07:49] [Render thread/DEBUG]: ItemAtlas_Page0 resources created successfully
+[J] [19:07:49] [Render thread/WARN]: Found fine program match for minecraft:pipeline/entity_translucent: ENTITIES_TRANSLUCENT
+[J] [19:07:49] [Render thread/WARN]: Found okay program match for minecraft:pipeline/translucent_particle: PARTICLES_TRANS
+[J] [19:07:49] [Render thread/INFO]: Reloading radar icon resources...
+[J] [19:07:49] [Render thread/INFO]: Reloaded radar icon resources!
+[J] [19:07:49] [Render thread/INFO]: Resized a dynamic immediate buffer to 160!
+[J] [19:07:49] [Render thread/INFO]: Resized a dynamic immediate buffer to 320!
+[J] [19:07:49] [Render thread/INFO]: Resized a dynamic immediate buffer to 160!
+[J] [19:07:49] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[J] [19:07:49] [Render thread/INFO]: Resized a dynamic immediate buffer to 640!
+[J] [19:07:49] [Render thread/INFO]: Resized a dynamic immediate buffer to 320!
+[J] [19:07:49] [Render thread/INFO]: Resized a dynamic immediate buffer to 640!
+[J] [19:07:50] [Render thread/INFO]: [System] [CHAT] AxezKwaylol: oof
+[J] [19:07:50] [Render thread/INFO]: Resized a dynamic immediate buffer to 1280!
+[J] [19:07:50] [Render thread/INFO]: Resized a dynamic immediate buffer to 1280!
+[J] [19:07:50] [Render thread/INFO]: [System] [CHAT] csggsc9554: lmao
+[J] [19:07:50] [Render thread/INFO]: Resized a dynamic immediate buffer to 2560!
+[J] [19:07:50] [Render thread/INFO]: Resized a dynamic immediate buffer to 2560!
+[J] [19:07:51] [Render thread/INFO]: [System] [CHAT] _Santaa: wait
+[J] [19:07:51] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: get tf off this server'
+[J] [19:07:51] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[J] [19:07:52] [Render thread/INFO]: [System] [CHAT] GrabKnife: .k
+[J] [19:07:56] [Render thread/INFO]: [System] [CHAT] _Santaa: the final test is spectating
+[J] [19:07:57] [Render thread/INFO]: [System] [CHAT] NA UHC Meetup (1.8) » JoseSC2900 wants you to play! (Join)
+[J] [19:07:57] [Render thread/INFO]: [System] [CHAT] GalaxyWasTaken: ?ff
+[J] [19:07:57] [Render thread/INFO]: [System] [CHAT] DJWaffles626_: .com
+[J] [19:07:57] [Render thread/INFO]: [System] [CHAT] \nDuel Sent\n ● To: §a§7Bl1zzFr§7\n ● Mode: Spear Mace\n
+[J] [19:07:58] [Render thread/INFO]: [System] [CHAT] HashbrownMC_YT: gg
+[J] [19:08:00] [Render thread/INFO]: [System] [CHAT] \nSpear Mace Duel\n ● Map: Nether\n ● Opponent: Bl1zzFr\n ● Ping: 87 ms\n
+[J] [19:08:00] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[J] [19:08:00] [Render thread/INFO]: [System] [CHAT] 5...
+[J] [19:08:01] [Render thread/INFO]: [System] [CHAT] 4...
+[J] [19:08:02] [Async Node Manager/WARN]: [me.cx.vy.ct.ce.rg.hl.NodeManager]: Tried processing a node that already has a request in flight: 1860 pos: 3@[243, 0, 127] ignoring
+[J] [19:08:02] [Render thread/INFO]: [System] [CHAT] 3...
+[J] [19:08:03] [Render thread/INFO]: [System] [CHAT] 2...
+[J] [19:08:04] [Render thread/INFO]: [System] [CHAT] 1...
+[J] [19:08:05] [Render thread/INFO]: [System] [CHAT] Match started!
+[J] [19:12:04] [Render thread/INFO]: [System] [CHAT] Bl1zzFr was killed by Ayzeriscooler!
+[J] [19:12:04] [Render thread/INFO]: [System] [CHAT] \nMatch Results (Click to view)\n 🏆 Winner: Ayzeriscooler  ▏  ☠ Loser: Bl1zzFr\n
+[J] [19:12:08] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 2097152
+[J] [19:12:08] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$SyncResults]: Expanding scatter update buffer to 24720
+[J] [19:12:11] [Render thread/INFO]: [System] [CHAT] Len246: gg
+[J] [19:12:11] [Render thread/INFO]: [System] [CHAT] QuickNam: 11-7
+[J] [19:12:11] [Render thread/INFO]: [System] [CHAT] British_agent: im defo playing buns lol
+[J] [19:12:12] [Render thread/INFO]: [System] [CHAT] MirMoon2468: come to my platform
+[J] [19:12:17] [Render thread/INFO]: [System] [CHAT] pjnk_: gg
+[J] [19:12:18] [Render thread/INFO]: [System] [CHAT] EclipticMCYT: g
+[J] [19:12:19] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:12:19] [Render thread/INFO]: ItemAtlas: Scale changed 6.0→5.0, invalidated 8 entries for re-slotting
+[J] [19:12:20] [Render thread/INFO]: Skin loaded!
+[J] [19:12:20] [Render thread/INFO]: [System] [CHAT] 00Zyric: im bad at mace
+[J] [19:12:20] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:12:21] [Render thread/INFO]: [System] [CHAT] THEC12: FIREBALL FIGHT
+[J] [19:12:21] [Render thread/INFO]: [System] [CHAT] nuts837485703: \
+[J] [19:12:28] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:12:29] [Render thread/INFO]: [System] [CHAT] Len246: gg
+[J] [19:12:32] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: dude
+[J] [19:12:32] [Render thread/INFO]: [System] [CHAT] Pigckles: gg
+[J] [19:12:41] [Render thread/INFO]: [System] [CHAT] _NanoBlade: gg
+[J] [19:12:42] [Render thread/INFO]: [System] [CHAT] Celosiia: NICE
+[J] [19:12:44] [Render thread/INFO]: [System] [CHAT] ahmedbedrippy: dam gg
+[J] [19:12:45] [Render thread/INFO]: [System] [CHAT] British_agent: op ahh crossbow
+[J] [19:12:45] [Render thread/INFO]: [System] [CHAT] Akshaka: GG
+[J] [19:12:46] [Render thread/INFO]: [System] [CHAT] prob69: ggs
+[J] [19:12:47] [Render thread/INFO]: [System] [CHAT] BatteryAcidium: gg
+[J] [19:12:48] [Render thread/INFO]: [System] [CHAT] ImKingBera: gg
+[J] [19:12:48] [Render thread/INFO]: [System] [CHAT] 00Zyric: i hate mace
+[J] [19:12:48] [Render thread/INFO]: [System] [CHAT] ahmedbedrippy: bros crazy
+[J] [19:12:51] [Render thread/INFO]: [System] [CHAT] Varsitile: eww
+[J] [19:12:51] [Render thread/INFO]: [System] [CHAT] Drama_a: fing fing drone
+[J] [19:12:52] [Render thread/INFO]: [System] [CHAT] Akshaka: ggs
+[J] [19:12:54] [Render thread/INFO]: [System] [CHAT] _Santaa: gg
+[J] [19:12:54] [Render thread/INFO]: [System] [CHAT] QuickNam: 11-8
+[J] [19:12:55] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:12:55] [Render thread/INFO]: [System] [CHAT] ToToaxic: gg
+[J] [19:12:57] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:13:02] [Render thread/INFO]: [System] [CHAT] Akshaka: yall that was totally gg
+[J] [19:13:05] [Render thread/INFO]: [System] [CHAT] Celosiia: yess
+[J] [19:13:05] [Render thread/INFO]: [System] [CHAT] LunarFractal: my ping is like 80
+[J] [19:13:06] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: gg
+[J] [19:13:06] [Render thread/INFO]: [System] [CHAT] Len246: gg
+[J] [19:13:06] [Render thread/INFO]: [System] [CHAT] LOBEAR321: holy sharpness
+[J] [19:13:06] [Render thread/INFO]: [System] [CHAT] _NanoBlade: gg
+[J] [19:13:06] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: huh
+[J] [19:13:07] [Render thread/INFO]: [System] [CHAT] tacogamercool: adadad
+[J] [19:13:12] [Render thread/INFO]: [System] [CHAT] British_agent: most of it
+[J] [19:13:12] [Render thread/INFO]: [System] [CHAT] LunarFractal: nvm 110
+[J] [19:13:12] [Render thread/INFO]: [System] [CHAT] Hachi_8_8: gg
+[J] [19:13:16] [Render thread/INFO]: [System] [CHAT] NPanther18: gg
+[J] [19:13:18] [Render thread/INFO]: [System] [CHAT] Akshaka: t
+[J] [19:13:24] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:13:25] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:13:33] [Render thread/INFO]: [System] [CHAT] _NanoBlade: gg
+[J] [19:13:35] [Render thread/INFO]: [System] [CHAT] npckingace: im talking about lunar sheild btw
+[J] [19:13:37] [Render thread/INFO]: [System] [CHAT] LunarFractal: uhh sure
+[J] [19:13:38] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:13:38] [Render thread/INFO]: [System] [CHAT] [MMC] Follow for updates: twitter.com/Minemen_Network
+[J] [19:13:38] [Render thread/INFO]: [System] [CHAT]  
+[J] [19:13:39] [Render thread/INFO]: [System] [CHAT] R3pex: alr
+[J] [19:13:44] [Render thread/INFO]: [System] [CHAT] QuickNam: 11-9
+[J] [19:13:45] [Render thread/INFO]: [System] [CHAT] British_agent: i thought i was better at this gm then u....
+[J] [19:13:47] [Render thread/INFO]: [System] [CHAT] BigestBird1: .
+[J] [19:13:47] [Render thread/INFO]: [System] [CHAT] Haru4khd: gg
+[J] [19:13:51] [Render thread/INFO]: [System] [CHAT] Drama_a: crit sapam bum
+[J] [19:13:53] [Render thread/INFO]: [System] [CHAT] rrhombus: gg
+[J] [19:13:54] [Render thread/INFO]: [System] [CHAT] _NanoBlade: gg
+[J] [19:13:54] [Render thread/INFO]: [System] [CHAT] Semityy: IamStormz can i get an ss
+[J] [19:13:55] [Render thread/INFO]: [System] [CHAT]        
+[J] [19:13:55] [Render thread/INFO]: [System] [CHAT] ✘ SlateAthlete652 was banned by AntiGamingChair for Unfair Advantage.
+[J] [19:13:55] [Render thread/INFO]: [System] [CHAT]        
+[J] [19:13:55] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:13:56] [Render thread/INFO]: [System] [CHAT] _TIPSS: gasy
+[J] [19:13:57] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:13:58] [Render thread/INFO]: [System] [CHAT] NightSlash1738: lol
+[J] [19:13:58] [Render thread/INFO]: [System] [CHAT] [❃] Hijmen BestWW: bang
+[J] [19:13:59] [Render thread/INFO]: [System] [CHAT] KFCaimer: 6 blocks
+[J] [19:13:59] [Render thread/INFO]: [System] [CHAT] [✽] FTRxWolf: 1-2
+[J] [19:13:59] [Render thread/INFO]: [System] [CHAT] BilinearActor56: chompify
+[J] [19:13:59] [Render thread/INFO]: [System] [CHAT] BigestBird1: bro
+[J] [19:14:01] [Render thread/INFO]: [System] [CHAT] BluuLAPiZ: w
+[J] [19:14:02] [Render thread/INFO]: [System] [CHAT] Distanceddd: gg
+[J] [19:14:02] [Render thread/INFO]: [System] [CHAT] ratipro: if you are Ht4 on cpvp plis send me duel
+[J] [19:14:03] [Render thread/INFO]: [System] [CHAT] FrenziedKay123: omfg
+[J] [19:14:12] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: were u the guy
+[J] [19:14:16] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: GG
+[J] [19:14:16] [Render thread/INFO]: [System] [CHAT] Len246: gg
+[J] [19:14:18] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: who killed me with nothing
+[J] [19:14:19] [Render thread/INFO]: [System] [CHAT] Cloud2134: gg
+[J] [19:14:21] [Render thread/INFO]: [System] [CHAT] TheHiBobGuy: gg
+[J] [19:14:22] [Render thread/INFO]: [System] [CHAT] Maursa: ern
+[J] [19:14:22] [Render thread/INFO]: [System] [CHAT] PenguinX19_: 1
+[J] [19:14:24] [Render thread/INFO]: [System] [CHAT] Lucvi: q mustom one hit mace
+[J] [19:14:26] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: yo
+[J] [19:14:27] [Render thread/INFO]: [System] [CHAT] _NanoBlade: gg
+[J] [19:14:28] [Render thread/INFO]: [System] [CHAT] \nTournament\n ● Mode: Crystal (2v2)\n ● Round: Quarter-Finals\n ● Players: 13/58\n (CLICK TO VIEW)\n
+[J] [19:14:30] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:14:32] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: HELLO?
+[J] [19:14:35] [Render thread/INFO]: [System] [CHAT] British_agent: FAAAAAAH
+[J] [19:14:36] [Render thread/INFO]: [System] [CHAT] Eggosa: gg
+[J] [19:14:39] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: were u the dude who killed me wi
+[J] [19:14:44] [Render thread/INFO]: [System] [CHAT] RyanIsCool67: dude omg
+[J] [19:14:44] [Render thread/INFO]: [System] [CHAT] WillTheMayo: can we invite lapiz
+[J] [19:14:45] [Render thread/INFO]: [System] [CHAT] BigestBird1: gg .
+[J] [19:14:45] [Render thread/INFO]: [System] [CHAT] QuickNam: 11-10...
+[J] [19:14:48] [Render thread/INFO]: [System] [CHAT] Fishswick: gt
+[J] [19:14:48] [Render thread/INFO]: [System] [CHAT] rrhombus: gg
+[J] [19:14:52] [Render thread/INFO]: [System] [CHAT] ZenyZo: Ig
+[J] [19:14:53] [Render thread/INFO]: [System] [CHAT] Ster_Verse: my steam just opened
+[J] [19:14:54] [Render thread/INFO]: [System] [CHAT] Fishswick: gtg
+[J] [19:14:57] [Render thread/INFO]: [System] [CHAT] Len246: gg
+[J] [19:15:01] [Render thread/INFO]: [System] [CHAT] LolllCattt: aw ert
+[J] [19:15:02] [Render thread/INFO]: [System] [CHAT] PRminers: t
+[J] [19:15:04] [Render thread/INFO]: [System] [CHAT] ZenyZo: I don't really fw him but sure ig
+[J] [19:15:05] [Render thread/INFO]: [System] [CHAT] GigaKun: gg
+[J] [19:15:08] [Render thread/INFO]: [System] [CHAT] frrenzy: ..
+[J] [19:15:12] [Render thread/INFO]: [System] [CHAT] HelenKellerTheOG: gg
+[J] [19:15:12] [Render thread/INFO]: [System] [CHAT] BigestBird1: gg
+[J] [19:15:13] [Render thread/INFO]: [System] [CHAT] King_Visper: gg
+[J] [19:15:14] [Render thread/INFO]: [System] [CHAT] ho_xng: gg
+[J] [19:15:18] [Render thread/INFO]: [System] [CHAT] MqsterMc: gg
+[J] [19:15:22] [Render thread/INFO]: [System] [CHAT] 1tsDeivid: Nyxerythos pegas desde narnia
+[J] [19:15:25] [Render thread/INFO]: [System] [CHAT] kakimozei: bro i got it
+[J] [19:15:26] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:15:26] [Render thread/INFO]: [System] [CHAT] MudduPuttu: gg
+[J] [19:15:33] [Render thread/INFO]: [System] [CHAT] WillTheMayo: invite lapis
+[J] [19:15:34] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: run it back
+[J] [19:15:34] [Render thread/INFO]: [System] [CHAT] Pilotminerone: 9ms
+[J] [19:15:35] [Render thread/INFO]: [System] [CHAT] QuellMaster: gg
+[J] [19:15:36] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:15:38] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:15:38] [Render thread/INFO]: [System] [CHAT] [MMC] Buy perks here: store.minemen.club
+[J] [19:15:38] [Render thread/INFO]: [System] [CHAT]  
+[J] [19:15:38] [Render thread/INFO]: [System] [CHAT] BluuLAPiZ: burger king
+[J] [19:15:39] [Render thread/INFO]: [System] [CHAT] NightSlash1738: lol
+[J] [19:15:39] [Render thread/INFO]: [System] [CHAT] ZenyZo: ig bro
+[J] [19:15:39] [Render thread/INFO]: [System] [CHAT] Feure_Pheonix: biggestbird1 is diabolical :sob::prayinghands:
+[J] [19:15:42] [Render thread/INFO]: [System] [CHAT] KFCaimer: gg
+[J] [19:15:43] [Render thread/INFO]: [System] [CHAT] [ALERT] lielied purchased VIP at store.minemen.club
+[J] [19:15:46] [Render thread/INFO]: [System] [CHAT] BluuLAPiZ: kurger bing
+[J] [19:15:49] [Render thread/INFO]: [System] [CHAT] LolllCattt: nice wings
+[J] [19:15:49] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: W lielied
+[J] [19:15:50] [Render thread/INFO]: [System] [CHAT] Tylm2k: u win
+[J] [19:15:51] [Render thread/INFO]: [System] [CHAT] pjnk_: [Ping Equalizer] Added 35ms delay.
+[J] [19:15:51] [Render thread/INFO]: [System] [CHAT] npckingace: gg
+[J] [19:15:52] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:15:53] [Render thread/INFO]: [System] [CHAT] [✷] ChellMC: ty
+[J] [19:15:54] [Render thread/INFO]: [System] [CHAT] R3pex: gg
+[J] [19:16:01] [Render thread/INFO]: [System] [CHAT] BigestBird1: brotha
+[J] [19:16:01] [Render thread/INFO]: [System] [CHAT] HWASH36: eee/eee
+[J] [19:16:01] [Render thread/INFO]: [System] [CHAT] British_agent: ima sleep
+[J] [19:16:04] [Render thread/INFO]: [System] [CHAT] Chamlvr: come down from the skies bro
+[J] [19:16:07] [Render thread/INFO]: [System] [CHAT] rrhombus: gg
+[J] [19:16:08] [Render thread/INFO]: [System] [CHAT] Haru4khd: gg
+[J] [19:16:12] [Render thread/INFO]: [System] [CHAT] _verdix: gg
+[J] [19:16:12] [Render thread/INFO]: [System] [CHAT] ItzKiun_: XD
+[J] [19:16:17] [Render thread/INFO]: [System] [CHAT] Len246: gg
+[J] [19:16:17] [Render thread/INFO]: [System] [CHAT] WillTheMayo: invite lapiz ;-;
+[J] [19:16:18] [Render thread/INFO]: [System] [CHAT] zch1111: ggs
+[J] [19:16:19] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:16:20] [Render thread/INFO]: [System] [CHAT] Colester_: LOL
+[J] [19:16:20] [Render thread/INFO]: [System] [CHAT] ZenyZo: can't
+[J] [19:16:20] [Render thread/INFO]: [System] [CHAT] npckingace: i got to relog so the shiled is gone for u
+[J] [19:16:20] [Render thread/INFO]: [System] [CHAT] SAKDEL: someone q diapot
+[J] [19:16:27] [Render thread/INFO]: [System] [CHAT] [✷] ChellMC: gg
+[J] [19:16:27] [Render thread/INFO]: [System] [CHAT] ZenyZo: we have to be in lapiz
+[J] [19:16:28] [Render thread/INFO]: [System] [CHAT] TheHiBobGuy: gg
+[J] [19:16:28] [Render thread/INFO]: [System] [CHAT] R3pex: oo
+[J] [19:16:31] [Render thread/INFO]: [System] [CHAT] Froxstd: i only got 1 totem left, u win
+[J] [19:16:32] [Render thread/INFO]: [System] [CHAT] ZenyZo: in hub*
+[J] [19:16:33] [Render thread/INFO]: [System] [CHAT] NightSlash1738: ggs
+[J] [19:16:35] [Render thread/INFO]: [System] [CHAT] valentlme: ff
+[J] [19:16:36] [Render thread/INFO]: [System] [CHAT] flamerag: gg
+[J] [19:16:36] [Render thread/INFO]: [System] [CHAT] R3pex: npckingace wanna do someone else?
+[J] [19:16:37] [Render thread/INFO]: [System] [CHAT] CosmicFastTravel: holy
+[J] [19:16:37] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:16:38] [Render thread/INFO]: [System] [CHAT] Semityy: Glockey gimme vip rank fr fr
+[J] [19:16:45] [Render thread/INFO]: [System] [CHAT] Pilotminerone: gg
+[J] [19:16:47] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:16:49] [Render thread/INFO]: [System] [CHAT] npckingace: is gone
+[J] [19:16:52] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: ok
+[J] [19:16:57] [Render thread/INFO]: [System] [CHAT] mr_black323: gg
+[J] [19:16:57] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:16:58] [Render thread/INFO]: [System] [CHAT] guagg: glock dookie
+[J] [19:17:01] [Render thread/INFO]: [System] [CHAT] zxqro: CAN IT RY SOMETHIGMW
+[J] [19:17:01] [Render thread/INFO]: [System] [CHAT] \nTournament\n ● Mode: Crystal (2v2)\n ● Round: Semi-Finals\n ● Players: 8/58\n (CLICK TO VIEW)\n
+[J] [19:17:01] [Render thread/INFO]: [System] [CHAT] Eggosa: gg
+[J] [19:17:03] [Render thread/INFO]: [System] [CHAT] Sliestvase: [Ping Equalizer] Total ping set to 20ms.
+[J] [19:17:04] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: ggs
+[J] [19:17:05] [Render thread/INFO]: [System] [CHAT] Davidgamer987: gg
+[J] [19:17:05] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:17:07] [Render thread/INFO]: [System] [CHAT] LolllCattt: wait
+[J] [19:17:08] [Render thread/INFO]: [System] [CHAT] NightSlash1738: T^T
+[J] [19:17:11] [Render thread/INFO]: [System] [CHAT] el9c: ranked shieldless
+[J] [19:17:12] [Render thread/INFO]: [System] [CHAT] KFCaimer: gg
+[J] [19:17:13] [Render thread/INFO]: [System] [CHAT] zxqro: wait
+[J] [19:17:14] [Render thread/INFO]: [System] [CHAT] [❃] ForceAlex: W BeeRainYT go support BeeRainYT
+[J] [19:17:14] [Render thread/INFO]: [System] [CHAT] Dizsm: p King_Medi
+[J] [19:17:15] [Render thread/INFO]: [System] [CHAT] LolllCattt: am I gonna be in a clip compilation?
+[J] [19:17:16] [Render thread/INFO]: [System] [CHAT] zxqro: tspmo__
+[J] [19:17:19] [Render thread/INFO]: [System] [CHAT] OvertCellYT: ok
+[J] [19:17:19] [Render thread/INFO]: [System] [CHAT] zxqro: can i try something
+[J] [19:17:23] [Render thread/INFO]: [System] [CHAT] LolllCattt: lmao
+[J] [19:17:24] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:17:24] [Render thread/INFO]: [System] [CHAT] _TIPSS: gay
+[J] [19:17:26] [Render thread/INFO]: [System] [CHAT] Kaiju_Hyun: g
+[J] [19:17:29] [Render thread/INFO]: [System] [CHAT] KingRahimi: look
+[J] [19:17:29] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: thank you ForceAlex
+[J] [19:17:30] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:17:34] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:17:35] [Render thread/INFO]: [System] [CHAT] zxqro: can i try stunslam pls
+[J] [19:17:36] [Render thread/INFO]: [System] [CHAT] NightSlash1738: agggg
+[J] [19:17:38] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:17:38] [Render thread/INFO]: [System] [CHAT] [MMC] Apply for staff: minemen.club/applications
+[J] [19:17:38] [Render thread/INFO]: [System] [CHAT]  
+[J] [19:17:38] [Render thread/INFO]: [System] [CHAT] LightCaca: gg
+[J] [19:17:42] [Render thread/INFO]: [System] [CHAT] itzShadowwwwYT: gay
+[J] [19:17:47] [Render thread/INFO]: [System] [CHAT] zxqro: 1 more
+[J] [19:17:47] [Render thread/INFO]: [System] [CHAT] ChillyMeMes09: wwwwwwwwww`
+[J] [19:17:51] [Render thread/INFO]: [System] [CHAT] QuickNam: 11-12
+[J] [19:17:53] [Render thread/INFO]: [System] [CHAT] tspmo__: can i try ityt
+[J] [19:17:53] [Render thread/INFO]: [System] [CHAT] LavidasJr: hghgg
+[J] [19:17:54] [Render thread/INFO]: [System] [CHAT] SAKDEL: someone q diapot
+[J] [19:17:56] [Render thread/INFO]: [System] [CHAT] [✷] ChellMC: gg
+[J] [19:17:59] [Render thread/INFO]: [System] [CHAT] Fad3dr_: gg
+[J] [19:18:00] [Render thread/INFO]: [System] [CHAT] birdbc: d
+[J] [19:18:02] [Render thread/INFO]: [System] [CHAT] Juptier290: yo
+[J] [19:18:09] [Render thread/INFO]: [System] [CHAT] OvertCellYT: gg
+[J] [19:18:10] [Render thread/INFO]: [System] [CHAT] SAKDEL: someone q diapot!!!
+[J] [19:18:10] [Render thread/INFO]: [System] [CHAT] exlipz: gg
+[J] [19:18:11] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:18:12] [Render thread/INFO]: [System] [CHAT] flamerag: gg
+[J] [19:18:15] [Render thread/INFO]: [System] [CHAT] ItzKraaxy: Q CUSTOM XXXBOOWWW CARRTTT
+[J] [19:18:22] [Render thread/INFO]: [System] [CHAT] SAKDEL: q diapot
+[J] [19:18:25] [Render thread/INFO]: [System] [CHAT] NightSlash1738: breh
+[J] [19:18:25] [Render thread/INFO]: [System] [CHAT] Hxnter14_: Dios rata
+[J] [19:18:26] [Render thread/INFO]: [System] [CHAT] Haru4khd: gg
+[J] [19:18:30] [Render thread/INFO]: [System] [CHAT] NightSlash1738: clicked menu
+[J] [19:18:31] [Render thread/INFO]: [System] [CHAT] Clearx_: w
+[J] [19:18:36] [Render thread/INFO]: [System] [CHAT] Sliestvase: [Ping Equalizer] Total ping set to 90ms.
+[J] [19:18:41] [Render thread/INFO]: [System] [CHAT] DragonCoop: NONOONON
+[J] [19:18:43] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:18:46] [Render thread/INFO]: [System] [CHAT] Pilotminerone: gg
+[J] [19:18:47] [Render thread/INFO]: [System] [CHAT] FrogensteinX: oops
+[J] [19:18:51] [Render thread/INFO]: [System] [CHAT] FrogensteinX: 1 sec
+[J] [19:18:52] [Render thread/INFO]: [System] [CHAT] CosmicFastTravel: gg
+[J] [19:18:53] [Render thread/INFO]: [System] [CHAT] NightSlash1738: ggs
+[J] [19:18:55] [Render thread/INFO]: [System] [CHAT] itzShadowwwwYT: NO
+[J] [19:18:57] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:18:58] [Render thread/INFO]: [System] [CHAT] Sadeexito: q server mas asqueroso diosmio
+[J] [19:18:59] [Render thread/INFO]: [System] [CHAT] _iluminescent: es
+[J] [19:19:00] [Render thread/INFO]: [System] [CHAT] Sliestvase: [Ping Equalizer] Total ping set to 20ms.
+[J] [19:19:04] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: gg
+[J] [19:19:12] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:19:13] [Render thread/INFO]: [System] [CHAT] WonderGreenBog1: one sec
+[J] [19:19:14] [Render thread/INFO]: [System] [CHAT] HashbrownMC_YT: ok
+[J] [19:19:17] [Render thread/INFO]: [System] [CHAT] 67ttttfrs: GG
+[J] [19:19:18] [Render thread/INFO]: [System] [CHAT] zxqro: CAN IT RY STUNSALAM
+[J] [19:19:23] [Render thread/INFO]: [System] [CHAT] WonderGreenBog1: ok
+[J] [19:19:24] [Render thread/INFO]: [System] [CHAT] yDelki_: wrf
+[J] [19:19:25] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: gg
+[J] [19:19:27] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: wth
+[J] [19:19:28] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:19:28] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » 2jz wants you to play! (Join)
+[J] [19:19:29] [Render thread/INFO]: [System] [CHAT] HashbrownMC_YT: lol
+[J] [19:19:29] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: bro
+[J] [19:19:32] [Render thread/INFO]: [System] [CHAT] zxqro: 1 MORE
+[J] [19:19:34] [Render thread/INFO]: [System] [CHAT] ItzKraaxy: Q CUSTOM XBIW CART
+[J] [19:19:37] [Render thread/INFO]: [System] [CHAT] legoboy116899: bro im out of charges
+[J] [19:19:38] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:19:38] [Render thread/INFO]: [System] [CHAT] [MMC] Need /disguise? Buy ACE Rank: store.minemen.club
+[J] [19:19:38] [Render thread/INFO]: [System] [CHAT]  
+[J] [19:19:39] [Render thread/INFO]: [System] [CHAT] \nTournament\n ● Mode: Crystal (2v2)\n ● Round: Finals\n ● Players: 4/58\n (CLICK TO VIEW)\n
+[J] [19:19:41] [Render thread/INFO]: [System] [CHAT] Ninorex: GG
+[J] [19:19:44] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:19:44] [Render thread/INFO]: [System] [CHAT] Blur2011Nov: gg
+[J] [19:19:45] [Render thread/INFO]: [System] [CHAT] turtlini_: wtf how
+[J] [19:19:51] [Render thread/INFO]: [System] [CHAT]        
+[J] [19:19:51] [Render thread/INFO]: [System] [CHAT] ✘ zxqro was banned by AntiGamingChair for Unfair Advantage.
+[J] [19:19:51] [Render thread/INFO]: [System] [CHAT]        
+[J] [19:19:51] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:19:52] [Render thread/INFO]: [System] [CHAT] Pilotminerone: 12ms!
+[J] [19:19:53] [Render thread/INFO]: [System] [CHAT] Frostspect: wowwww
+[J] [19:19:54] [Render thread/INFO]: [System] [CHAT] Kaiju_Hyun: g
+[J] [19:19:58] [Render thread/INFO]: [System] [CHAT] Sadeexito: wrning go mcpvp
+[J] [19:20:00] [Render thread/INFO]: [System] [CHAT] LavidasJr: gg
+[J] [19:20:02] [Render thread/INFO]: [System] [CHAT] mavzzeq: no
+[J] [19:20:04] [Render thread/INFO]: [System] [CHAT] rexiitoo: D
+[J] [19:20:05] [Render thread/INFO]: [System] [CHAT] mavzzeq: spear elytra
+[J] [19:20:06] [Render thread/INFO]: [System] [CHAT] Fad3dr_: gg
+[J] [19:20:07] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » ElPozolero wants you to play! (Join)
+[J] [19:20:09] [Render thread/INFO]: [System] [CHAT] Distanceddd: NGAS A SWEAT FOR NO RSN
+[J] [19:20:11] [Render thread/INFO]: [System] [CHAT] Pilotminerone: ts not 12ms
+[J] [19:20:12] [Render thread/INFO]: [System] [CHAT] \nTournament\n ● Crystal (58 players)\n   ✫1 TaxTime and Xlmu\n   ✫2 Avorthic and Niqht3\n   ✫3 _NetherKnight_ and ShinyBetter\n\n
+[J] [19:20:14] [Render thread/INFO]: [System] [CHAT] Adolf_Shadow: ezeta
+[J] [19:20:19] [Render thread/INFO]: [System] [CHAT] Eggosa: gg
+[J] [19:20:23] [Render thread/INFO]: [System] [CHAT] Fad3dr_: gg
+[J] [19:20:24] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: gg
+[J] [19:20:26] [Render thread/INFO]: [System] [CHAT] SAKDEL: diapot tourney!
+[J] [19:20:26] [Render thread/INFO]: [System] [CHAT] TheImmortalSourc: bro
+[J] [19:20:27] [Render thread/INFO]: [System] [CHAT] lunalow: gg
+[J] [19:20:30] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Austin5910_\n ● Mode: Diamond SMP (2v2)\n ● Players: 0\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:20:31] [Render thread/INFO]: [System] [CHAT] LavidasJr: gg
+[J] [19:20:31] [Render thread/INFO]: [System] [CHAT] NA SG (1.8) » 2jz wants you to play! (Join)
+[J] [19:20:34] [Render thread/INFO]: [System] [CHAT] BigestBird1: gg
+[J] [19:20:38] [Render thread/INFO]: [System] [CHAT] tspmo__: ggf
+[J] [19:20:39] [Render thread/INFO]: [System] [CHAT] [Media] Kunzy: HAI TAI HAI STORMZ
+[J] [19:20:45] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Austin5910_\n ● Mode: Diamond SMP (2v2)\n ● Players: 10\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:20:47] [Render thread/INFO]: [System] [CHAT] [Famous] _Tai: HI KUNZY
+[J] [19:20:50] [Render thread/INFO]: [System] [CHAT] DrownedShadow: FINALLY
+[J] [19:20:53] [Render thread/INFO]: [System] [CHAT] TimHenson_: is that the tai
+[J] [19:20:54] [Render thread/INFO]: [System] [CHAT] DrownedShadow: BRO
+[J] [19:20:54] [Render thread/INFO]: [System] [CHAT] Z1egee: i dont play this
+[J] [19:20:55] [Render thread/INFO]: [System] [CHAT] CardioMC: tai 1v1 u lil wuss
+[J] [19:20:57] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Giving Away Ranks
+[J] [19:21:00] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Austin5910_\n ● Mode: Diamond SMP (2v2)\n ● Players: 15\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:21:00] [Render thread/INFO]: [System] [CHAT] Golden_PenguinYT: wghat
+[J] [19:21:01] [Render thread/INFO]: [System] [CHAT] kingsnakeOG: pls duel me _Tai
+[J] [19:21:03] [Render thread/INFO]: [System] [CHAT] FreshboiDarpan4: wait
+[J] [19:21:05] [Render thread/INFO]: [System] [CHAT] Maxx1mus: where is this kid
+[J] [19:21:07] [Render thread/INFO]: [System] [CHAT] Etude4: gg
+[J] [19:21:07] [Render thread/INFO]: [System] [CHAT] kingsnakeOG: speed i need ts
+[J] [19:21:08] [Render thread/INFO]: [System] [CHAT] realjigglemyers: shield spamm
+[J] [19:21:10] [Render thread/INFO]: [System] [CHAT] CardioMC: tai if u dont duel u like jude
+[J] [19:21:13] [Render thread/INFO]: [System] [CHAT] Blubbie_: hehewhuha
+[J] [19:21:15] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Austin5910_\n ● Mode: Diamond SMP (2v2)\n ● Players: 15\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:21:17] [Render thread/INFO]: [System] [CHAT] m_aji: a
+[J] [19:21:21] [Render thread/INFO]: [System] [CHAT] Carter_499: DAMN IT
+[J] [19:21:25] [Render thread/INFO]: [System] [CHAT] mavzzeq: gg
+[J] [19:21:25] [Render thread/INFO]: [System] [CHAT] GuardianTheGoat: gg
+[J] [19:21:27] [Render thread/INFO]: [System] [CHAT] Carter_499: losing elo
+[J] [19:21:29] [Render thread/INFO]: [System] [CHAT] kingsnakeOG: pls let me cook tai
+[J] [19:21:29] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 20\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:21:30] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 20\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:21:38] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:21:38] [Render thread/INFO]: [System] [CHAT] [MMC] Want to see lobby players? Buy PRO Rank: store.minemen.club
+[J] [19:21:38] [Render thread/INFO]: [System] [CHAT]  
+[J] [19:21:40] [Render thread/INFO]: [System] [CHAT] Haru4khd: gg
+[J] [19:21:43] [Render thread/INFO]: [System] [CHAT] [❃] IntelPark: go to eu or wherever ur from
+[J] [19:21:43] [Render thread/INFO]: [System] [CHAT] Cheezy_YTVR: what is ur ping
+[J] [19:21:45] [Render thread/INFO]: [System] [CHAT] DragonCoop: wdym
+[J] [19:21:45] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 26\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:21:53] [Render thread/INFO]: [System] [CHAT] Etude4: gg
+[J] [19:21:54] [Render thread/INFO]: [System] [CHAT] Linko_the_Plinko: gg
+[J] [19:21:55] [Render thread/INFO]: [System] [CHAT] PenguinX19_: gg
+[J] [19:21:56] [Render thread/INFO]: [System] [CHAT] _Luvo: someone good at manhunt wanna party for thos tourney
+[J] [19:21:57] [Render thread/INFO]: [System] [CHAT] Shadow__H_: get out the air
+[J] [19:22:00] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 31\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:22:03] [Render thread/INFO]: [System] [CHAT] Econicc: bro just rejoin call
+[J] [19:22:09] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Hosting OP FFA Winner Gets VIP RANK 5 mins start
+[J] [19:22:11] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: gg
+[J] [19:22:12] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: ggs
+[J] [19:22:13] [Render thread/INFO]: [System] [CHAT] Davidgamer987: gg
+[J] [19:22:13] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:22:13] [Render thread/INFO]: [System] [CHAT] TofuTof: gg
+[J] [19:22:14] [Render thread/INFO]: [System] [CHAT] NightSlash1738: scary
+[J] [19:22:14] [Render thread/INFO]: [System] [CHAT] Econicc: stable isnt that important
+[J] [19:22:15] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 37\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:22:17] [Render thread/INFO]: [System] [CHAT] Sprite_Meme: how do you do that
+[J] [19:22:18] [Render thread/INFO]: [System] [CHAT] [❃] ForceAlex: twitch.tv/glockey__ saying the N word at 100 subs
+[J] [19:22:22] [Render thread/INFO]: [System] [CHAT] LawMixer: 1/2 manhunt
+[J] [19:22:26] [Render thread/INFO]: [System] [CHAT] TimHenson_: rest in pieces to bros grandma
+[J] [19:22:27] [Render thread/INFO]: [System] [CHAT] packp3nguin: ok bro
+[J] [19:22:30] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 44\n ● Status: Waiting\n (CLICK TO JOIN)\n\n
+[J] [19:22:31] [Render thread/INFO]: [System] [CHAT] DecimeSander: pa jugar nomas
+[J] [19:22:32] [Render thread/INFO]: [System] [CHAT] packp3nguin: we just be doing anything for views
+[J] [19:22:33] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: p join Glockey hosting OP FFA winner gets vip rank
+[J] [19:22:35] [Render thread/INFO]: [System] [CHAT] HelenKellerTheOG: w alex
+[J] [19:22:36] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 50\n ● Starting: 00:30\n (CLICK TO JOIN)\n\n
+[J] [19:22:38] [Render thread/INFO]: [System] [CHAT] morclq7: yo
+[J] [19:22:39] [Render thread/INFO]: [System] [CHAT] nwxp_: gg
+[J] [19:22:39] [Render thread/INFO]: [System] [CHAT] DestroyerMI: i hate this game some times
+[J] [19:22:42] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:22:51] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 55\n ● Starting: 00:15\n (CLICK TO JOIN)\n\n
+[J] [19:22:57] [Render thread/INFO]: [System] [CHAT] morclq7: yo
+[J] [19:23:01] [Render thread/INFO]: [System] [CHAT] King_Visper: gg
+[J] [19:23:01] [Render thread/INFO]: [System] [CHAT] \n\nTournament\n ● Host: Crozzor\n ● Mode: Manhunt (2v2)\n ● Players: 54\n ● Starting: 00:05\n (CLICK TO JOIN)\n\n
+[J] [19:23:04] [Render thread/INFO]: [System] [CHAT] _NanoBlade: gg
+[J] [19:23:04] [Render thread/INFO]: [System] [CHAT] rl6533: '
+[J] [19:23:07] [Render thread/INFO]: [System] [CHAT] \nTournament\n ● Mode: Manhunt (2v2)\n ● Round: 16th-Finals\n ● Players: 61/61\n (CLICK TO VIEW)\n
+[J] [19:23:09] [Render thread/INFO]: [System] [CHAT] Etude4: gg
+[J] [19:23:10] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Hosting OP FFA Winner Gets VIP RANK 4 mins start
+[J] [19:23:10] [Render thread/INFO]: [System] [CHAT] EU SG (1.8) » Hydrated_ wants you to play! (Join)
+[J] [19:23:11] [Render thread/INFO]: [System] [CHAT] DrJamesPHD: t
+[J] [19:23:11] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: p join Glockey hosting OP FFA winner gets vip rank
+[J] [19:23:11] [Render thread/INFO]: [System] [CHAT] Avorthic: wsgg Glockey
+[J] [19:23:15] [Render thread/INFO]: [System] [CHAT] Mr_Pickel22: d
+[J] [19:23:17] [Render thread/INFO]: [System] [CHAT] _Euphoriaaa: alr
+[J] [19:23:17] [Render thread/INFO]: [System] [CHAT] tyreseh4l1burt0n: gg
+[J] [19:23:18] [Render thread/INFO]: [System] [CHAT] [✡] Austin5910_: screeny?
+[J] [19:23:19] [Render thread/INFO]: [System] [CHAT] [Famous] AXIMITY: Bryuh
+[J] [19:23:21] [Render thread/INFO]: [System] [CHAT] _Euphoriaaa: we not fighting yet
+[J] [19:23:22] [Render thread/INFO]: [System] [CHAT] Ace2flame: gg
+[J] [19:23:23] [Render thread/INFO]: [System] [CHAT] croilt: tai
+[J] [19:23:25] [Render thread/INFO]: [System] [CHAT] [❃] LOVEDXRK: stoop
+[J] [19:23:27] [Render thread/INFO]: [System] [CHAT] [✡] BeeRainYT Panda: DUELING VIEWERS ANY KITS JOIN UP (no Spear Wrong Version) {192/200} TWITCH.TV/BEERAINYT
+[J] [19:23:33] [Render thread/INFO]: [System] [CHAT] KFCaimer: gg
+[J] [19:23:34] [Render thread/INFO]: [System] [CHAT] TheHiBobGuy: gg
+[J] [19:23:36] [Render thread/INFO]: [System] [CHAT] NightSlash1738: Wut
+[J] [19:23:37] [Render thread/INFO]: [System] [CHAT] TheInvazion: gg
+[J] [19:23:37] [Render thread/INFO]: [System] [CHAT] _Euphoriaaa: u wanna hear the update on euphorias livfe?
+[J] [19:23:38] [Render thread/INFO]: [System] [CHAT] 
+[J] [19:23:38] [Render thread/INFO]: [System] [CHAT] [MMC] STAT RESETS UPDATED! store.minemen.club/package/4097366
+[J] [19:23:38] [Render thread/INFO]: [System] [CHAT]  
+[J] [19:23:41] [Render thread/INFO]: [System] [CHAT] CastSealYT: bett
+[J] [19:23:42] [Render thread/INFO]: [System] [CHAT] Astro_Mine: ggs
+[J] [19:23:43] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: Twitch.tv/Glockey__ Hosting OP FFA Winner Gets VIP RANK 4 mins start
+[J] [19:23:43] [Render thread/INFO]: [System] [CHAT] cerlitt: a yo acepte sin saber
+[J] [19:23:44] [Render thread/INFO]: [System] [CHAT] [Media] Glockey .Glock.: p join Glockey hosting OP FFA winner gets vip rank
+[J] [19:23:44] [Render thread/INFO]: [System] [CHAT] Skygiants10: gg
+[J] [19:23:48] [Render thread/INFO]: [System] [CHAT] _Euphoriaaa: alr
+[J] [19:23:48] [Render thread/INFO]: [System] [CHAT] R3pex: gg
+[J] [19:23:49] [Render thread/INFO]: [System] [CHAT] NightSlash1738: i dont like it when u spam pearls T^T
+[J] [19:23:52] [Render thread/INFO]: [System] [CHAT] npckingace: gg
+[J] [19:23:52] [Render thread/INFO]: [System] [CHAT] R3pex: good fight npckingace
+[J] [19:23:55] [Render thread/INFO]: [System] [CHAT] DripyVizzix: dwt
